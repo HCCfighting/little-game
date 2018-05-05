@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>蒋淦同学生日快乐！</title>
+		<link rel="Shortcut Icon" href="img/logo.ico" type="image/x-icon">
+		<link rel="stylesheet" href="css/game2.css" />
+		<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+		<link href="https://fonts.gdgdocs.org/css?family=Lobster" rel="stylesheet" type="text/css">
+		<style>
+			/* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+			
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			body {
+				font: 18px Verdana;
+				color: lemonchiffon;
+				background: pink;
+			}
+			
+			#picbox {
+				margin: 0px auto;
+				width: 640px;
+			}
+			
+			#boxcard {
+				z-index: 1;
+				margin: 10px 0 0;
+			}
+			
+			#boxcard div {
+				float: left;
+				width: 100px;
+				height: 100px;
+				margin: 5px;
+				padding: 5px;
+				border: 4px solid powderblue;
+				cursor: pointer;
+				border-radius: 10px;
+				box-shadow: 0 1px 5px rgba(0, 0, 0, .5);
+				background: aliceblue;
+				z-index: 2;
+			}
+			
+			#boxcard div img {
+				display: none;
+				border-radius: 10px;
+				z-index: 3;
+			}
+			
+			#boxbuttons {
+				text-align: center;
+				margin: 20px;
+				display: block;
+			}
+			
+			#boxbuttons .button {
+				text-transform: uppercase;
+				background: powderblue;
+				padding: 5px 10px;
+				margin: 5px;
+				border-radius: 10px;
+				cursor: pointer;
+			}
+			
+			#boxbuttons .button:hover {
+				background: lightgreen;
+			}
+		</style>
+		<script>
+			alert('欢迎安迪先生来到HCC为您设计的，简易而又不简单的趣味创新游戏，以你微薄的智商能顺利通关吗？赶快开始挑战吧~')
+		</script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+	</head>
+
+	<body>
+
+		<div id="picbox">
+			<span id="boxbuttons">
+    <span class="button">
+      <span id="counter">0</span> Clicks
+			</span>
+			<span class="button">
+      <a onclick="ResetGame();">Reset</a>
+    </span>
+			</span>
+			<div id="boxcard"></div>
+		</div>
+		<div class="sign2"> 
+		<p style="position: fixed;left: 100px;top: 200px;font-family: Lobster;font-size: 100px;">Little<br>Game<br>For<br>Andy</p>
+		<p style="position: fixed;right: 100px;top: 400px;font-family: Lobster;font-size: 80px;">Have<br>Fun<br>Playing!</p></div>
+
+		<div class="sign-container">
+			<div class="sign" style="color: palevioletred;">
+				<h2>Congratulations !&nbsp;You Won !</h2>
+				<h3>Happy Birthday Year! My dear Andy~</h3><br />
+				<h5>此处省略两千字...</h5>
+				<br />
+				<h4>Good men have good deeds.</h4>
+				<h4>So I believe we will have a better life, so do our families.</h4>
+				<h4>We will all be healthy、safe，and we will earn lots of money.</h4>
+				<h4>I will always stand by you.</h4><br /><br />
+			</div>
+		</div>
+		<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+		<script src="js/game2.js"></script>
+
+	</body>
+
+</html>
